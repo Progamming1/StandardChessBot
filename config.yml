@@ -10,7 +10,7 @@ engine:                      # Engine settings.
     enabled: true           # Activate polyglot book.
     book:
       standard:              # List of book file paths for variant standard.
-        - Goi5.1.bin
+        - Perfect2021.bin
         - Drawkiller_EloZoom_big.bin
 #      atomic: # list of book file paths for variant atomic
 #      etc.
@@ -80,8 +80,11 @@ challenge:                   # incoming challenges
     - bullet
     - blitz
     - rapid
-#   - classical
+    - classical
 #   - correspondence
+  Minutes_per_side:         # per time to accept
+#    - ½
+#    - ¾
   modes:                     # game modes to accept
     - casual                 # unrated games
     - rated                  # rated games - must comment if the engine doesn't try to win
